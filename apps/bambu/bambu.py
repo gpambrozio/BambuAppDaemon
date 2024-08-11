@@ -13,6 +13,7 @@ from PIL import Image
 # image_entity: The entity id of the image provided by the https://github.com/greghesp/ha-bambulab integration.
 # ha_url: The root URL for your home assistant.
 # panda_ip: The IP address of your Panda Touch.
+#
 class BambuImage(hass.Hass):
     max_size = (250, 250)
 

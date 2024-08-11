@@ -2,9 +2,32 @@
 
 _App to update images on the Panda Touch when starting a print on the Bambu._
 
-## Installation
+  ## Install using HACS
 
-Download the `bambu` directory from inside the `apps` directory here to your local `apps` directory, then add the configuration to enable the `bambu` module.
+  To install this AppDaemon app using HACS, follow these steps:
+
+  1. **Access HACS**: 
+     - Click on the "HACS" option in the sidebar.
+     - Click on "Automation"
+
+  2. **Add a Custom Repository**:
+     - Click on the three dots in the top right corner and select "Custom repositories".
+     - Enter this URL: `https://github.com/gpambrozio/BambuAppDaemon.git`
+     - Select "AppDaemon" as the category.
+     - Click "Add".
+
+  4. **Install the App**:
+     - Click on the "Explore & Download Repositories" section.
+     - Search for "Bambu".
+     - Click on the app and then click "Install".
+
+  5. **Configure the App**:
+     - After installation, go to the AppDaemon configuration directory.
+     - Edit the `apps.yaml` file to configure the app according to your needs.
+
+## Manual Installation
+
+Download the `bambu` directory from inside the `apps` directory here to your local `apps` directory, then edit `apps.yaml` to enable the `bambu` module.
 
 You need to have the [ha-bambulab](https://github.com/greghesp/ha-bambulab) integration working on your home assistant for it to work.
 
