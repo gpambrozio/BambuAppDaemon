@@ -1,4 +1,4 @@
-# BambuAppDaemon
+# Bambu Image Updater AppDaemon
 
 _App to update images on the Panda Touch when starting a print on the Bambu._
 
