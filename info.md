@@ -2,7 +2,7 @@
 
 ```yaml
 bambu:
-  module: bambu
+  module: BambuAppDaemon
   class: BambuImage
   image_entity: "image.bambu_p1s_cover_image"
   ha_url: "http://home.local:8123"

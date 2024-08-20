@@ -30,7 +30,7 @@ _App to update images on the Panda Touch when starting a print on the Bambu._
 
 ## Manual Installation
 
-Download the `bambu` directory from inside the `apps` directory here to your local `apps` directory, then edit `apps.yaml` to enable the `bambu` module.
+Download the `BambuAppDaemon` directory from inside the `apps` directory here to your local `apps` directory, then edit `apps.yaml` to enable the `BambuAppDaemon` module.
 
 You need to have the [ha-bambulab](https://github.com/greghesp/ha-bambulab) integration working on your home assistant for it to work.
 
@@ -50,7 +50,7 @@ You also need to add the Pillow library to AppDaemon (see below)
 
 ```yaml
 bambu:
-  module: bambu
+  module: BambuAppDaemon
   class: BambuImage
   image_entity: "image.bambu_p1s_cover_image"
   ha_url: "http://home.local:8123"
