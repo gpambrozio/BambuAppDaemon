@@ -13,7 +13,7 @@ _App to update images on the Panda Touch when starting a print on the Bambu._
   2. **Add a Custom Repository**:
      - Click on the three dots in the top right corner and select "Custom repositories".
      - Enter this URL: `https://github.com/gpambrozio/BambuAppDaemon.git`
-     - Select "AppDaemon" as the category.
+     - Select "AppDaemon" as the category / type.
      - Click "Add".
 
   4. **Install the App**:
