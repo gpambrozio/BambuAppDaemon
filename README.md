@@ -21,7 +21,7 @@ _App to update images on the Panda Touch when starting a print on the Bambu._
      - Search for "Bambu".
      - Click on the app and then click "Install".
 
-  5. ** Add the Pillow library to AppDaemon **
+  5. **Add the Pillow library to AppDaemon**
      - See instructions below.
 
   6. **Configure the App**:
