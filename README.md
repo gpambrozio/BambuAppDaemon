@@ -1,3 +1,5 @@
+# Update: Seems like the latest version of the Panda Touch already does this so this should not be needed anymore.
+
 # Bambu Image Updater AppDaemon
 
 _App to update images on the Panda Touch when starting a print on the Bambu._
